@@ -1,0 +1,18 @@
+{
+  "bot_token": "YOUR_BOT_TOKEN",
+  "owner_id": "YOUR_OWNER_ID",
+  "community_name": "Test Community",
+  "developer_username": "TestUser",
+  "bad_words": [
+    "badword1",
+    "badword2"
+  ],
+  "whitelisted_domains": [
+    "github.com",
+    "gitlab.com",
+    "stackoverflow.com"
+  ],
+  "auto_replies": {
+    "hello": "Hello! How can I help you?"
+  }
+}

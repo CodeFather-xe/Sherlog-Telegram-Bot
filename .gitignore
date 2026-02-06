@@ -1,0 +1,12 @@
+# Ignore a specific file
+config.json
+
+# Ignore a directory
+__pycache__/
+.vscode/
+.idea/
+
+# Ignore files with a specific extension
+*.pyc
+*.log
+*.swp

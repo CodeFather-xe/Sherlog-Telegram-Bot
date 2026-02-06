@@ -1,0 +1,45 @@
+{
+  "admin_messages": {
+    "access_denied": "⛔ Sorry, this command is for admins only.",
+    "ban_reply_prompt": "⚠️ Please reply to the user's message to ban them.",
+    "ban_success": "🚫 User **{user_first_name}** has been banned.",
+    "unban_reply_prompt": "⚠️ Please reply to the user's message to unban them.",
+    "unban_success": "✅ User **{user_first_name}** has been unbanned.",
+    "mute_reply_prompt": "⚠️ Please reply to the user's message to mute them.",
+    "mute_success": "😶 User **{user_first_name}** has been muted.",
+    "unmute_reply_prompt": "⚠️ Please reply to the user's message to unmute them.",
+    "unmute_success": "🗣️ User **{user_first_name}** has been unmuted."
+  },
+  "help_command": {
+    "title": "🕵️‍♂️ *SherLog Manual*",
+    "intro": "Welcome, fellow developer! My mission is to ensure a clean environment for code and discussion. Here are your tools to interact with me:",
+    "reporting_title": "🚨 *1. Instant Reporting System*",
+    "reporting_body": "Encountered an annoying or rule-breaking message? Don't argue, just follow these steps:\n• *Reply* to the offending message.\n• Type the command: /report\n• I will immediately forward a copy to the admins for action.",
+    "code_style_title": "💻 *2. Code Style Protocol*",
+    "code_style_body": "We are programmers, and our code should be elegant! Sending long plain text code is forbidden.\nUse *triple backticks* to format your code like this:",
+    "code_example": "```dart\nvoid main() {\n  print('Hello World!');\n}\n```",
+    "link_safety_title": "🛡 *3. Link Safety*",
+    "link_safety_body": "To protect you, only links from globally trusted sources are allowed, such as:\n• `GitHub, GitLab`\n• `StackOverflow`\n• `pub.dev, dart.dev`\nAny suspicious external link will be detected and you will be alerted.",
+    "outro": "🚀 *Let's make this the best community!*"
+  },
+  "auto_replies": {
+    "flutter_installation_guide_title": "🚀 **Comprehensive Flutter 2026 Installation Guide**",
+    "flutter_installation_guide_body": "──────────────\n\n"      "⬇️ **1. Download Flutter SDK**\n"      "• Download the zip file from [the official website here](https://docs.flutter.dev/get-started/install/windows/mobile).\n"      "• Unzip it in a separate folder like\n: `C:/src/flutter`.\n"      "⚠️ *Note:* Do not unzip in `Program Files` to avoid permission issues.\n\n"      "──────────────\n\n"      "⚙️ **2. Set up the Path Environment**\n"      "• Go to the `flutter/bin` folder and copy the path from the address bar.\n"      "• Search for `Edit the system environment variables` in Windows.\n"      "• Click `Environment Variables`.\n"      "• Find `Path` in both lists (User & System variables).\n"      "• Click `Edit` -> `New` -> Paste the path -> `OK`.\n\n"      "──────────────\n\n"      "📱 **3. Set up Android Studio**\n"      "• Download it from [the official website](https://developer.android.com/studio).\n"      "• Install the program (Next -> Next).\n"      "• Open the program -> Go to `Plugins` -> Search for `Flutter` and install it.\n"      "• Go to `SDK Manager` -> `SDK Tools` and enable these options:\n"      "  - `Android SDK Command-line Tools`\n"      "  - `CMake`\n\n"      "──────────────\n\n"      "🔌 **4. Connect a Physical Device**\n"      "• On your phone: Settings -> Developer options.\n"      "• Enable `USB Debugging`.\n"      "• Enable `Install via USB`.\n"      "• Connect the cable and accept the confirmation message on your phone's screen.\n\n"      "──────────────\n\n"      "🚀 **5. First Run**\n"      "• Create a new project.\n"      "• 💡 *Note:* Use a `VPN` for the first run only to download libraries.\n"      "• Congratulations! You are now ready to go. 🎉"
+  },
+  "info": {
+    "update_changenlog" : "📢 *System Update: SherLog v2.0*\nA new update package is currently being installed for the smart assistant.\n\n🛠 *Changelog: *\n\n✅ *1. DevTools: *\n• *Instant Library Access:* Ability to search for `pub.dev` packages and fetch their details directly.\n• *Courses Repository:* Quick access to the best-approved educational resources.\n\n✅ *2. Resource Hub: *\n• *Important Links:* A unified list of the most important documents (Docs) and design tools.\n• *Broadcast System:* A direct communication channel for important administrative announcements.\n\n✅ *3. Security & Performance (Core): *\n• *Higher Security:* Advanced algorithms for filtering malicious content in real-time.\n• *Smarter Response:* Improved interaction speed and automatic code formatting.\n\n🚀 *Status: Rolling out...*\n👨‍💻 *Developed by: @{developer_username}*",
+    "report_message_success": "✅ Thank you! Your report has been received and the admins have been notified for review.",
+    "report_message_error": "⚠️ An error occurred while sending the report. Please contact an admin directly.",
+    "report_message_prompt": "⚠️ To use this command, please reply directly to the message you want to report."
+  },
+  "moderation": {
+    "bad_word_warning": "⚠️ {user_ref}, please adhere to the group's communication etiquette. Your message has been deleted. 🚫",
+    "bad_word_log": "🚨 **Bad Word Detected** 🤬\n\n👤 **User:** {user_ref} (`{user_id}`)\n🗑️ **Action:** Message Deleted\n⬇️ **Evidence Forwarded Above**",
+    "link_warning": "⚠️ Be careful, {user_ref}, this is an external link and not approved by us.\nIt is always better to use official sources (Github, StackOverflow, etc).\n\n💡 **Note:** We are constantly updating our link rules. If you believe this link is useful and safe, please inform the owner to update the bot immediately.",
+    "link_log": "🚨 **Suspicious Link Detected**\n\n👤 **User:** {user_ref} (`{user_id}`)\n🔢 **Warning Count:** {warning_count}\n🔗 **Link:** `{url}`\n⬇️ **Message Forwarded Below:**",
+    "code_police_warning": "💡 {user_ref}, your message contains long code.\nPlease use formatting marks (```) to make the code readable for everyone. 💻"
+  },
+  "welcome": {
+    "new_member_message": "Welcome {user_mention} to our community 💙\n\nWelcome to *{community_name}*. As the automated assistant *SherLog* 🕵️‍♂️, I am pleased to accompany you to organize the workflow and discussions.\n\nTo ensure a professional learning environment, please adhere to the following guidelines:\n\n🔹 *1. Dialogue Etiquette:* Stick to constructive technical discussions, and avoid side topics or inappropriate behavior.\n🔹 *2. Information Security:* It is forbidden to post untrusted links or promotional content (Spam) to maintain the safety of members.\n🔹 *3. Content Quality:* When asking programming questions, please use code blocks to ensure clarity.\n\nWe wish you a useful and fruitful experience. 🚀"
+  }
+}
